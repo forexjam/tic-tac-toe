@@ -177,8 +177,6 @@ bool endgame() {
 }
 void main() {
 
-	//trikiplay(1, 1, "X");
-	//print_matrix();
 	int coordenada_x = 0;
 	int coordenada_y = 0;
 	std::string p = "X";
@@ -236,6 +234,5 @@ void main() {
 			
 			break;
 		}
-	}
-	
+	}	
 }
