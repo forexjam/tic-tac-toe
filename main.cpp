@@ -208,6 +208,5 @@ void main() {
 			std::cout << "Supreme Victory!";			
 			break;
 		}
-	}
-	
+	}	
 }
