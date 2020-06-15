@@ -171,7 +171,7 @@ void main() {
 		std::cin >> coordenada_x;
 		std::cout << "\nPlease enter coordinate y: ";
 		std::cin >> coordenada_y;
-		if (coordenada_x <= 2 && coordenada_x >= 0 || coordenada_y <= 2 && coordenada_y >= 0) { 			
+		if (coordenada_x <= 2 && coordenada_x >= 0 && coordenada_y <= 2 && coordenada_y >= 0) { 			
 			t = triki[coordenada_x][coordenada_y];
 			if (t == " ") {
 				system("CLS");
